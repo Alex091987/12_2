@@ -35,7 +35,8 @@ SHOW GRANTS FOR sys_temp@localhost;
 
 7. `Восстановите дамп в базу данных.`
 ```
-     SOURCE /home/rat87/Загрузки/sakila-db/sakila-schema.sql; 
+     SOURCE /home/rat87/Загрузки/sakila-db/sakila-schema.sql;
+     SOURCE /home/rat87/Загрузки/sakila-db/sakila-data.sql;
 ```
 8. `Список таблиц`
 
